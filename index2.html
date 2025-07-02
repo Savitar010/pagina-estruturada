@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>primeira pagina estruturada</title>
+</head>
+<style>
+    body {
+	font-family: Verdana,sans-serif;
+	font-size: 0.9em;
+}
+
+header, footer {
+	padding: 10px;
+	color: white;
+	background-color: rgb(0, 200, 255);
+}
+
+section {
+	margin: 5px;
+	padding: 10px;
+	background-color: lightblue;
+}
+
+article {
+	margin: 5px;
+	padding: 10px;
+	background-color: white;
+}
+
+nav ul {
+	padding: 0;
+}
+
+nav ul li {
+	display: inline;
+	margin: 5px;
+}
+</style>
+<body>
+
+<header>
+    <h1>Estruturando sites</h1>
+</header>
+
+<main>
+    <nav>
+        <ul>
+            <li><a href="#sec">section</a></li>
+            <li><a href="#art">article</article></a></li>
+            <li><a href="#foot">footer</a></li>
+        </ul>
+    </nav>
+
+    <section id="sec">
+        <h2>Noticias de esportes</h2>
+        
+       
+        <article id="art">
+            <h2>Notícias sobre esportes</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in porta lorem. Morbi condimentum est nibh, et consectetur tortor feugiat at.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in porta lorem. Morbi condimentum est nibh, et consectetur tortor feugiat at.</p>
+            
+        </article>
+        
+       
+        <article>
+            <h2>Notícias sobre política</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in porta lorem. Morbi condimentum est nibh, et consectetur tortor feugiat at.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in porta lorem. Morbi condimentum est nibh, et consectetur tortor feugiat at.</p>
+        </article>
+    </section>
+</main>
+
+
+<footer id="foot">
+    <p>©Copyright 2050 by savitar. All rights reversed.</p>
+</footer>
+
+</body>
+</html>
